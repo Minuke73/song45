@@ -11,7 +11,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
-<title>4학년_3_52p_달떡_20240229</title>
+<title>4학년_3_52p_달떡_20240310</title>
 <!-- write your code here -->
 <style>
   #animation_container, #_preload_div_ {
@@ -406,6 +406,27 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-7.8,-3.8,143,54.599999999999994);
+(lib.play_bg = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+	// 레이어_2
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#444444").s().p("AizC0QhKhLAAhpQAAhpBKhKQBLhLBoABQBqgBBKBLQBKBKAABpQAABphKBLQhKBKhqAAQhoAAhLhKgAg+hmQgQAJAAATIAACWQAAASAQAJQAHAEAJAAQAJAAAHgEICChMQAQgIAAgTQAAgSgQgJIiChLQgIgFgIAAQgIAAgIAFg");
+	this.shape.setTransform(48.325,48.75);
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FFFFFF").s().p("AhRBnQgPgJAAgSIAAiWQAAgTAQgJQAQgKAPAKICCBMQAQAJAAARQAAATgQAJIiCBLQgHAFgJAAQgIAAgIgFg");
+	this.shape_1.setTransform(50.175,48.725);
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+	this._renderFirstFrame();
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(22.9,23.3,50.9,50.900000000000006);
 (lib.play = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -568,7 +589,7 @@ if (reversed == null) { reversed = false; }
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-545,39.9,70,70);
 // stage content:
-(lib._4학년_3_52p_달떡_20240229 = function(mode,startPosition,loop,reversed) {
+(lib._4학년_3_52p_달떡_20240310 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = false; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -592,34 +613,44 @@ if (reversed == null) { reversed = false; }
 		/*메뉴 네비게이션*/
 		_this.listen_btn.on('click', function () {
 			_this.gotoAndStop('노래듣기');
+			_this.play_btn.visible = true;
 		});
 		_this.expert_btn.on('click', function () {
 			_this.gotoAndStop('전문가창');
+			_this.play_btn.visible = true;
 		});
 		_this.listen2_btn.on('click', function () {
 			_this.gotoAndStop('반주듣기');
+			_this.play_btn.visible = true;
 		});
 		_this.singAlong_btn.on('click', function () {
 			_this.gotoAndStop('따라부르');
+			_this.play_btn.visible = true;
 		});
 		/*플레이컨트롤*/
 		_this.play_btn.on('click', function () {
 			_this.play();
+			_this.play_btn.visible = false;
 		});
 		_this.pause_btn.on('click', function () {
 			_this.stop();
+			_this.play_btn.visible = true;
 		});
 		_this.stop1_btn.on('click', function () {
 			_this.gotoAndStop('노래듣기');
+			_this.play_btn.visible = true;
 		});
 		_this.stop2_btn.on('click', function () {
 			_this.gotoAndStop('전문가창');
+			_this.play_btn.visible = true;
 		});
 		_this.stop4_btn.on('click', function () {
 			_this.gotoAndStop('반주듣기');
+			_this.play_btn.visible = true;
 		});
 		_this.stop3_btn.on('click', function(){
 			_this.gotoAndStop('따라부르');
+			_this.play_btn.visible = true;
 		});
 	}
 	this.frame_1472 = function() {
@@ -5354,6 +5385,8 @@ if (reversed == null) { reversed = false; }
 	this.shape_1105.setTransform(182.0443,430.4876,2.4309,2.4309);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1033},{t:this.shape_1032},{t:this.shape_1031},{t:this.shape_1030},{t:this.shape_1029},{t:this.shape_1028},{t:this.shape_1027},{t:this.shape_1026},{t:this.shape_1025},{t:this.shape_1024},{t:this.shape_1023},{t:this.shape_1022},{t:this.shape_1021},{t:this.shape_1020},{t:this.shape_1019},{t:this.shape_1018},{t:this.shape_1017,p:{x:980.3954,y:428.2876}},{t:this.shape_1016},{t:this.shape_1015},{t:this.shape_1014},{t:this.shape_1013,p:{x:1140.2894,y:428.2876}},{t:this.shape_1012},{t:this.shape_1011},{t:this.shape_1010},{t:this.shape_1009},{t:this.shape_1008},{t:this.shape_1007},{t:this.shape_1006},{t:this.shape_1005},{t:this.shape_1004},{t:this.shape_1003},{t:this.shape_1002},{t:this.shape_1001},{t:this.shape_1000},{t:this.shape_999},{t:this.shape_998},{t:this.shape_997},{t:this.shape_996},{t:this.shape_995},{t:this.shape_994},{t:this.shape_993},{t:this.shape_992,p:{x:1141.5049,y:628.9604}}]}).to({state:[{t:this.shape_1070},{t:this.shape_1069},{t:this.shape_1068},{t:this.shape_1067},{t:this.shape_1066},{t:this.shape_1065},{t:this.shape_1064},{t:this.shape_1063},{t:this.shape_1062},{t:this.shape_1061},{t:this.shape_1060},{t:this.shape_1017,p:{x:785.8193,y:429.4115}},{t:this.shape_1059},{t:this.shape_1013,p:{x:962.6083,y:429.4115}},{t:this.shape_1058},{t:this.shape_1057},{t:this.shape_1056},{t:this.shape_1055},{t:this.shape_1054},{t:this.shape_1053},{t:this.shape_1052},{t:this.shape_1051},{t:this.shape_1050},{t:this.shape_1049},{t:this.shape_1048},{t:this.shape_1047},{t:this.shape_1046},{t:this.shape_1045},{t:this.shape_1044},{t:this.shape_1043},{t:this.shape_1042},{t:this.shape_1041},{t:this.shape_1040},{t:this.shape_1039},{t:this.shape_1038},{t:this.shape_1037},{t:this.shape_1036},{t:this.shape_1035},{t:this.shape_1034}]},609).to({state:[{t:this.shape_1105},{t:this.shape_1104},{t:this.shape_1103},{t:this.shape_1102},{t:this.shape_1101},{t:this.shape_1100},{t:this.shape_1099},{t:this.shape_1098},{t:this.shape_1097},{t:this.shape_1096},{t:this.shape_1095},{t:this.shape_1094},{t:this.shape_1093},{t:this.shape_1092},{t:this.shape_1091},{t:this.shape_1090},{t:this.shape_1089},{t:this.shape_1088},{t:this.shape_1087},{t:this.shape_1086},{t:this.shape_992,p:{x:1138.7894,y:429.0493}},{t:this.shape_1085},{t:this.shape_1084},{t:this.shape_1083},{t:this.shape_1082},{t:this.shape_1081},{t:this.shape_1080},{t:this.shape_1079},{t:this.shape_1078},{t:this.shape_1077},{t:this.shape_1076},{t:this.shape_1075},{t:this.shape_1074},{t:this.shape_1017,p:{x:764.2449,y:628.722}},{t:this.shape_1073},{t:this.shape_1072},{t:this.shape_1071},{t:this.shape_1013,p:{x:1046.3536,y:628.722}}]},356).to({state:[]},508).to({state:[{t:this.shape_1033},{t:this.shape_1032},{t:this.shape_1031},{t:this.shape_1030},{t:this.shape_1029},{t:this.shape_1028},{t:this.shape_1027},{t:this.shape_1026},{t:this.shape_1025},{t:this.shape_1024},{t:this.shape_1023},{t:this.shape_1022},{t:this.shape_1021},{t:this.shape_1020},{t:this.shape_1019},{t:this.shape_1018},{t:this.shape_1017,p:{x:980.3954,y:428.2876}},{t:this.shape_1016},{t:this.shape_1015},{t:this.shape_1014},{t:this.shape_1013,p:{x:1140.2894,y:428.2876}},{t:this.shape_1012},{t:this.shape_1011},{t:this.shape_1010},{t:this.shape_1009},{t:this.shape_1008},{t:this.shape_1007},{t:this.shape_1006},{t:this.shape_1005},{t:this.shape_1004},{t:this.shape_1003},{t:this.shape_1002},{t:this.shape_1001},{t:this.shape_1000},{t:this.shape_999},{t:this.shape_998},{t:this.shape_997},{t:this.shape_996},{t:this.shape_995},{t:this.shape_994},{t:this.shape_993},{t:this.shape_992,p:{x:1141.5049,y:628.9604}}]},36).to({state:[{t:this.shape_1070},{t:this.shape_1069},{t:this.shape_1068},{t:this.shape_1067},{t:this.shape_1066},{t:this.shape_1065},{t:this.shape_1064},{t:this.shape_1063},{t:this.shape_1062},{t:this.shape_1061},{t:this.shape_1060},{t:this.shape_1017,p:{x:785.8193,y:429.4115}},{t:this.shape_1059},{t:this.shape_1013,p:{x:962.6083,y:429.4115}},{t:this.shape_1058},{t:this.shape_1057},{t:this.shape_1056},{t:this.shape_1055},{t:this.shape_1054},{t:this.shape_1053},{t:this.shape_1052},{t:this.shape_1051},{t:this.shape_1050},{t:this.shape_1049},{t:this.shape_1048},{t:this.shape_1047},{t:this.shape_1046},{t:this.shape_1045},{t:this.shape_1044},{t:this.shape_1043},{t:this.shape_1042},{t:this.shape_1041},{t:this.shape_1040},{t:this.shape_1039},{t:this.shape_1038},{t:this.shape_1037},{t:this.shape_1036},{t:this.shape_1035},{t:this.shape_1034}]},957).to({state:[{t:this.shape_1105},{t:this.shape_1104},{t:this.shape_1103},{t:this.shape_1102},{t:this.shape_1101},{t:this.shape_1100},{t:this.shape_1099},{t:this.shape_1098},{t:this.shape_1097},{t:this.shape_1096},{t:this.shape_1095},{t:this.shape_1094},{t:this.shape_1093},{t:this.shape_1092},{t:this.shape_1091},{t:this.shape_1090},{t:this.shape_1089},{t:this.shape_1088},{t:this.shape_1087},{t:this.shape_1086},{t:this.shape_992,p:{x:1138.7894,y:429.0493}},{t:this.shape_1085},{t:this.shape_1084},{t:this.shape_1083},{t:this.shape_1082},{t:this.shape_1081},{t:this.shape_1080},{t:this.shape_1079},{t:this.shape_1078},{t:this.shape_1077},{t:this.shape_1076},{t:this.shape_1075},{t:this.shape_1074},{t:this.shape_1017,p:{x:764.2449,y:628.722}},{t:this.shape_1073},{t:this.shape_1072},{t:this.shape_1071},{t:this.shape_1013,p:{x:1046.3536,y:628.722}}]},710).to({state:[{t:this.shape_1033},{t:this.shape_1032},{t:this.shape_1031},{t:this.shape_1030},{t:this.shape_1029},{t:this.shape_1028},{t:this.shape_1027},{t:this.shape_1026},{t:this.shape_1025},{t:this.shape_1024},{t:this.shape_1023},{t:this.shape_1022},{t:this.shape_1021},{t:this.shape_1020},{t:this.shape_1019},{t:this.shape_1018},{t:this.shape_1017,p:{x:980.3954,y:428.2876}},{t:this.shape_1016},{t:this.shape_1015},{t:this.shape_1014},{t:this.shape_1013,p:{x:1140.2894,y:428.2876}},{t:this.shape_1012},{t:this.shape_1011},{t:this.shape_1010},{t:this.shape_1009},{t:this.shape_1008},{t:this.shape_1007},{t:this.shape_1006},{t:this.shape_1005},{t:this.shape_1004},{t:this.shape_1003},{t:this.shape_1002},{t:this.shape_1001},{t:this.shape_1000},{t:this.shape_999},{t:this.shape_998},{t:this.shape_997},{t:this.shape_996},{t:this.shape_995},{t:this.shape_994},{t:this.shape_993},{t:this.shape_992,p:{x:1141.5049,y:628.9604}}]},976).to({state:[{t:this.shape_1070},{t:this.shape_1069},{t:this.shape_1068},{t:this.shape_1067},{t:this.shape_1066},{t:this.shape_1065},{t:this.shape_1064},{t:this.shape_1063},{t:this.shape_1062},{t:this.shape_1061},{t:this.shape_1060},{t:this.shape_1017,p:{x:785.8193,y:429.4115}},{t:this.shape_1059},{t:this.shape_1013,p:{x:962.6083,y:429.4115}},{t:this.shape_1058},{t:this.shape_1057},{t:this.shape_1056},{t:this.shape_1055},{t:this.shape_1054},{t:this.shape_1053},{t:this.shape_1052},{t:this.shape_1051},{t:this.shape_1050},{t:this.shape_1049},{t:this.shape_1048},{t:this.shape_1047},{t:this.shape_1046},{t:this.shape_1045},{t:this.shape_1044},{t:this.shape_1043},{t:this.shape_1042},{t:this.shape_1041},{t:this.shape_1040},{t:this.shape_1039},{t:this.shape_1038},{t:this.shape_1037},{t:this.shape_1036},{t:this.shape_1035},{t:this.shape_1034}]},611).to({state:[{t:this.shape_1105},{t:this.shape_1104},{t:this.shape_1103},{t:this.shape_1102},{t:this.shape_1101},{t:this.shape_1100},{t:this.shape_1099},{t:this.shape_1098},{t:this.shape_1097},{t:this.shape_1096},{t:this.shape_1095},{t:this.shape_1094},{t:this.shape_1093},{t:this.shape_1092},{t:this.shape_1091},{t:this.shape_1090},{t:this.shape_1089},{t:this.shape_1088},{t:this.shape_1087},{t:this.shape_1086},{t:this.shape_992,p:{x:1138.7894,y:429.0493}},{t:this.shape_1085},{t:this.shape_1084},{t:this.shape_1083},{t:this.shape_1082},{t:this.shape_1081},{t:this.shape_1080},{t:this.shape_1079},{t:this.shape_1078},{t:this.shape_1077},{t:this.shape_1076},{t:this.shape_1075},{t:this.shape_1074},{t:this.shape_1017,p:{x:764.2449,y:628.722}},{t:this.shape_1073},{t:this.shape_1072},{t:this.shape_1071},{t:this.shape_1013,p:{x:1046.3536,y:628.722}}]},356).wait(498));
 	// bg
+	this.instance_5 = new lib.play_bg("synched",0);
+	this.instance_5.setTransform(562.5,750.25,1,1,0,0,0,48.3,48.8);
 	this.shape_1106 = new cjs.Shape();
 	this.shape_1106.graphics.f("#FFFFFF").s().p("EAbGAwvQh5AAhWhWQhWhWAAh6QAAh6hWhWQhWhVh6AAMgjnAAAQh5AAhWBVQhWBWAAB6QAAB6hWBWQhWBWh6AAMg7mAAAQjsAAioioQininAAjsMAAAhPnQAAjsCnioQCoinDsAAMCs7AAAQDsAACoCnQCnCoAADsMAAABPnQAADsinCnQioCojsAAg");
 	this.shape_1106.setTransform(639.325,457.45);
@@ -5366,7 +5399,7 @@ if (reversed == null) { reversed = false; }
 	this.shape_1109 = new cjs.Shape();
 	this.shape_1109.graphics.f("#ED1C24").s().p("At7FeIAAiUIPPAAIAAonIPQAAIAAK7gAwjFeIAAq7ICoAAIAAInIAACUgAt7DKIAAonIPPAAIAAIngAt7DKgAt7ldg");
 	this.shape_1109.setTransform(1097.175,248.575);
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1109},{t:this.shape_1108},{t:this.shape_1107},{t:this.shape_1106}]}).wait(5617));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1109},{t:this.shape_1108},{t:this.shape_1107},{t:this.shape_1106},{t:this.instance_5}]}).wait(5617));
 	this._renderFirstFrame();
 }).prototype = p = new lib.AnMovieClip();
 p.nominalBounds = new cjs.Rectangle(640.5,261.9,640,1438.1);
@@ -5514,7 +5547,7 @@ function handleComplete(evt,comp) {
 	var preloaderDiv = document.getElementById("_preload_div_");
 	preloaderDiv.style.display = 'none';
 	canvas.style.display = 'block';
-	exportRoot = new lib._4학년_3_52p_달떡_20240229();
+	exportRoot = new lib._4학년_3_52p_달떡_20240310();
 	stage = new lib.Stage(canvas);
 	stage.enableMouseOver();	
 	//Registers the "tick" event listener.
